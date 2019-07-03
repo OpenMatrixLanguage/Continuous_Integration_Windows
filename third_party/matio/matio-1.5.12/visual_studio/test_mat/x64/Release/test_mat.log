@@ -1,0 +1,21 @@
+﻿  getopt_long.c
+  test_mat.c
+..\..\test\test_mat.c(1500): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2438): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2447): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2478): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2489): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2599): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2651): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2759): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2762): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2767): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2905): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2906): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+c:\oss\third_party\matio\matio-1.5.12\test\test_mat.c(3444): warning C4723: potential divide by 0
+c:\oss\third_party\matio\matio-1.5.12\test\test_mat.c(3415): warning C4723: potential divide by 0
+  All 51 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  test_mat.vcxproj -> C:\oss\third_party\matio\matio-1.5.12\visual_studio\x64\Release\test_mat.exe
+  test_mat.vcxproj -> C:\oss\third_party\matio\matio-1.5.12\visual_studio\x64\Release\test_mat.pdb (Full PDB)

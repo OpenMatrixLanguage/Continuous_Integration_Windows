@@ -1,0 +1,19 @@
+﻿  global.c
+  stat.c
+  geom2.c
+  poly2.c
+  merge.c
+  libqhull.c
+  geom.c
+  poly.c
+  qset.c
+  mem.c
+  random.c
+  usermem.c
+  userprintf.c
+  io.c
+  user.c
+  rboxlib.c
+  userprintf_rbox.c
+  Generating Code...
+  qhullstatic-64.vcxproj -> C:\Users\banspach\Downloads\OpenMatrix\qhull\qhull-2015.2\build\..\lib\qhullstatic.lib

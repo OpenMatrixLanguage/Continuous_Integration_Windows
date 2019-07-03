@@ -1,0 +1,6 @@
+﻿  qset.c
+  mem.c
+  usermem.c
+  testqset.c
+  Generating Code...
+  testqset-64.vcxproj -> C:\Users\banspach\Downloads\OpenMatrix\qhull\qhull-2015.2\build\..\bin\testqset.exe

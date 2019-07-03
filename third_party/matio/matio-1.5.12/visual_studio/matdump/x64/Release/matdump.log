@@ -1,0 +1,12 @@
+﻿  getopt_long.c
+  matdump.c
+..\..\tools\matdump.c(233): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(276): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(279): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(361): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(426): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  All 24 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  matdump.vcxproj -> C:\oss\third_party\matio\matio-1.5.12\visual_studio\x64\Release\matdump.exe
+  matdump.vcxproj -> C:\oss\third_party\matio\matio-1.5.12\visual_studio\x64\Release\matdump.pdb (Full PDB)
