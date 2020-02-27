@@ -1,0 +1,121 @@
+{
+  "info": {
+    "subdir": "win-64"
+  },
+  "packages": {
+    "intel-openmp-2019.5-intel_281.tar.bz2": {
+      "build": "intel_281",
+      "build_number": 281,
+      "depends": [],
+      "license": "proprietary - Intel",
+      "license_family": "Proprietary",
+      "md5": "7910577a287308d89c9a45b122b3cf86",
+      "name": "intel-openmp",
+      "sha256": "0e9a5fb65344ac4a8cb759e81d6eea7ce99022ed902b0cbcaf38c2ad74e3078c",
+      "size": 4829,
+      "subdir": "win-64",
+      "timestamp": 1566225255945,
+      "version": "2019.5"
+    },
+    "mkl-2019.5-intel_281.tar.bz2": {
+      "build": "intel_281",
+      "build_number": 281,
+      "depends": [
+        "intel-openmp 2019.*",
+        "tbb 2019.*"
+      ],
+      "license": "proprietary - Intel",
+      "license_family": "Proprietary",
+      "md5": "7ed51a9aee49be54e7dfb63d9fc670b9",
+      "name": "mkl",
+      "sha256": "601e222afd54c9b985cdda7817463ba6cef83998221347cbf61ea51e7cfe03b2",
+      "size": 5422,
+      "subdir": "win-64",
+      "timestamp": 1566225885431,
+      "version": "2019.5"
+    },
+    "mkl-devel-2019.5-intel_281.tar.bz2": {
+      "build": "intel_281",
+      "build_number": 281,
+      "depends": [
+        "mkl 2019.5 intel_281",
+        "mkl-include 2019.5 intel_281"
+      ],
+      "license": "proprietary - Intel",
+      "license_family": "Proprietary",
+      "md5": "260153c6aa5a86ae8e5ff5656ae1f694",
+      "name": "mkl-devel",
+      "sha256": "0c2391b786bd64b203006204894e7a13c4b9bbdb188867be36874bb13d0d0960",
+      "size": 5114,
+      "subdir": "win-64",
+      "timestamp": 1566224578754,
+      "version": "2019.5"
+    },
+    "mkl-include-2019.5-intel_281.tar.bz2": {
+      "build": "intel_281",
+      "build_number": 281,
+      "depends": [],
+      "license": "proprietary - Intel",
+      "license_family": "Proprietary",
+      "md5": "9228d76f25ac01f83afcc25de46379bf",
+      "name": "mkl-include",
+      "sha256": "265b0d3610c176109b6213a9abe7a049ba65ce4669dc5f50dde63b75e17d1e8d",
+      "size": 6375,
+      "subdir": "win-64",
+      "timestamp": 1566224572472,
+      "version": "2019.5"
+    },
+    "mkl-static-2019.5-intel_281.tar.bz2": {
+      "build": "intel_281",
+      "build_number": 281,
+      "depends": [
+        "intel-openmp 2019.*",
+        "mkl-include 2019.5 intel_281",
+        "tbb 2019.*"
+      ],
+      "license": "proprietary - Intel",
+      "license_family": "Proprietary",
+      "md5": "b7f94d31da86ffa2024137d637b1eff3",
+      "name": "mkl-static",
+      "sha256": "3feebadf8fbe6ca430288f5eaa9eee04048b1f8bd5d7473247829bf3af459432",
+      "size": 5229,
+      "subdir": "win-64",
+      "timestamp": 1566225083167,
+      "version": "2019.5"
+    },
+    "tbb-2019.8-vc14_intel_281.tar.bz2": {
+      "build": "vc14_intel_281",
+      "build_number": 281,
+      "depends": [
+        "vc 14.*"
+      ],
+      "features": "vc14",
+      "license": "proprietary - Intel",
+      "license_family": "Proprietary",
+      "md5": "b9767cb745d66300b47bc69ad434e7a5",
+      "name": "tbb",
+      "sha256": "cc44cacbd6fe290b4ad24d1e78524936ffefdb2e352ed10eb0aaa58019eb2bfd",
+      "size": 4939,
+      "subdir": "win-64",
+      "timestamp": 1566224924144,
+      "version": "2019.8"
+    },
+    "tbb-2019.8-vc9_intel_281.tar.bz2": {
+      "build": "vc9_intel_281",
+      "build_number": 281,
+      "depends": [
+        "vc 9.*"
+      ],
+      "features": "vc9",
+      "license": "proprietary - Intel",
+      "license_family": "Proprietary",
+      "md5": "c2962f9d2777d625c61470e21d1437c2",
+      "name": "tbb",
+      "sha256": "24c649555d37e310ac2131d26064ede1835c394aa32cc7dd6ca7ddb8d7b9f35d",
+      "size": 4953,
+      "subdir": "win-64",
+      "timestamp": 1566225000455,
+      "version": "2019.8"
+    }
+  }
+}
